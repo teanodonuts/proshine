@@ -97,7 +97,7 @@ namespace PROProtocol
         public event Action<List<Pokemon>> PCBoxUpdated;
         public event Action<string> LogMessage;
         
-        private const string Version = "XMAS2017";
+        private string Version = Properties.Resources.Version;
 
         private GameConnection _connection;
         private DateTime _lastMovement;
